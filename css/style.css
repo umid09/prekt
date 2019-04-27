@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding: 0px;
+}
+
+.container{
+	border: 1px solid red;
+	width: 90%;
+	margin: 20px auto;
+	height: 1500px;
+	background: grey;
+	position: relative;
+}
+
+.block1{
+	border: 1px solid red;
+	width: 200px;
+	height: 200px;
+	background: yellow;
+	position: stati: ;c;
+	top: 200px;
+	/*top: 200px; top || bottom
+	left: 200px; left || right*/
+}
+
+.block2{
+	border: 1px solid red;
+	width: 200px;
+	height: 200px;
+	background: red;
+	position: absolute;
+	bottom: 0px;
+	right: 45%;
+	z-index: 1;
+}
+
+.block3{
+	border: 1px solid red;
+	width: 200px;
+	height: 200px;
+	background: orange;
+	position: relative;
+	left: 550px;
+	top: 50px;
+}
+
+.block4{
+	border: 1px solid red;
+	width: 200px;
+	height: 200px;
+	background: green;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+}
+
+/* static || absolute ||  relative || fixed*/
